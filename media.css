@@ -1,0 +1,104 @@
+@media  screen and (max-width: 1000px) {
+    .body{
+        /* overflow-x: hidden; */
+      height: 40rem;
+    }
+    .page{
+        height: 40rem;
+        margin-top: .5rem;
+    }
+    nav{
+        padding-top: 1rem;
+    }
+    ul{
+        margin: 0;
+        position: relative;
+    }
+    .list{
+        flex-direction: column;
+        margin: 0;
+        position: absolute;
+        width: 80%;
+        background-color: white;
+        height: 24rem;
+        top: 5px; 
+        display: none;
+     
+    }
+    li{
+        background-color: white;
+       margin:2rem 0 2rem 2rem ;
+       font-size: 20px;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        right: 1rem;
+    }
+    #close{
+        width: 1rem;
+        position: absolute;
+        right: 1rem;
+        display: none;
+    }
+    .landing-page{
+        margin-top: 1.5rem;
+    }
+   .content{
+
+       flex-direction: column;
+    }
+    .txt{
+        width: 100%;
+        text-align: center;
+    }
+    .border p{
+        width: 100%;
+    }
+    .txt h2{
+        font-size: 35px;
+        width: 100%;
+       
+    }
+    .txt .text p{
+        margin-top: .5em;
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+    }
+    form input{
+        margin-bottom: 1.5rem;
+        padding: 1rem 6.5rem 1rem 1rem;
+    }
+   
+   form a{
+    padding: .9rem 3.6rem;
+    font-size: 17px;
+   }
+   .img img{
+       display: none;
+   }
+   .used{
+    margin-top: 1rem;
+}
+}
+
+@media screen and (max-width:630px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:310px){
+    form input{
+        margin-bottom: 1.5rem;
+        padding: 1rem 4.5rem 1rem 1rem;
+    }
+   form a{
+    padding: .9rem .6rem;
+    font-size: 17px;
+   }
+}

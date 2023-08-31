@@ -12,12 +12,13 @@ body{
    align-content: center;
 }
 .page{
-    width: 97%;
+    width: 100%;
     margin-top: 2rem;
     height:97vh;
     background-color:hsla(195, 53%, 79%,0.1);
     border: 1px solid hsla(195, 53%, 79%,0.1) ;
     border-radius: 7px;
+    /* outline: 2px solid red; */
 }
 nav{
     width: 100%;
@@ -73,13 +74,15 @@ align-content: center;
 }
 .border p{
 color: hsla(0, 0%, 96%,0.6);
- width: 52%; 
+ width: 62%; 
+ /* height: 5rem; */
 font-size: 17px;
-padding: 0.2rem 0;
+padding: 0.5rem 1rem;
 border-radius: 50px;
 text-align: center;
 border: 2px solid hsl(265, 58%, 18%);
 background-color:hsl(265, 63%, 18%) ;
+/* outline: 2px solid red; */
 }
 .border a{
     color: hsla(0, 0%, 96%, 0.6);
